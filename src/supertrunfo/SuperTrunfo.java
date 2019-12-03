@@ -307,7 +307,12 @@ public class SuperTrunfo {
         c[31].potencia = 830;
         c[31].velocidade = 60;
 
-        for(int i=0;i<32;i++){
+        int turno=0;
+        int carac=0;
+        
+        for(int i=0;i<17;i++){
+            
+            if(turno==0){
             
             escolha1 = gerador.nextInt(31);
             escolha2 = gerador.nextInt(31);
@@ -324,43 +329,78 @@ public class SuperTrunfo {
             
             System.out.println("Qual caracteristica deseja comparar? \n 1-Canhao \n "
                                 + "2-Potencia \n 3-Peso \n 4-Velocidade \n 5-Comprimento \n 6-Largura \n");
-            int carac = sc.nextInt();
+            carac = sc.nextInt();
             
             switch(carac){                
                 case 1:
                     System.out.println("\n\nComparar canhao:\n Jogador 1:" + c[escolha1].canhao + "\n Jogador 2:" + c[escolha2].canhao + comp(c[escolha1].canhao, c[escolha2].canhao) + "\n");
                     if(comp(c[escolha1].canhao, c[escolha2].canhao).equals("\nJogador 1 vence")){
                         contador1++;
+                        turno=0;
                     }else if(comp(c[escolha1].canhao, c[escolha2].canhao).equals("\nJogador 2 vence")){
                         contador2++;
+                        turno=1;
                     }
                     break;
                     
                 case 2:
                     System.out.println("\n\nComparar potencia:\n Jogador 1:" + c[escolha1].potencia + "\n Jogador 2:" + c[escolha2].potencia + comp(c[escolha1].potencia, c[escolha2].potencia) + "\n");
+                    if(comp(c[escolha1].potencia, c[escolha2].potencia).equals("\nJogador 1 vence")){
+                        contador1++;
+                        turno=0;
+                    }else if(comp(c[escolha1].potencia, c[escolha2].potencia).equals("\nJogador 2 vence")){
+                        contador2++;
+                        turno=1;
+                    }
                     break;
                     
                 case 3:
                     System.out.println("\n\nComparar peso:\n Jogador 1:" + c[escolha1].peso + "\n Jogador 2:" + c[escolha2].peso + comp(c[escolha1].peso, c[escolha2].peso) + "\n");
+                    if(comp(c[escolha1].peso, c[escolha2].peso).equals("\nJogador 1 vence")){
+                        contador1++;
+                        turno=0;
+                    }else if(comp(c[escolha1].peso, c[escolha2].peso).equals("\nJogador 2 vence")){
+                        contador2++;
+                        turno=1;
+                    }
                     break;
                     
                 case 4:
                     System.out.println("\n\nComparar velocidade:\n Jogador 1:" + c[escolha1].velocidade + "\n Jogador 2:" + c[escolha2].velocidade + comp(c[escolha1].velocidade, c[escolha2].velocidade) + "\n");
+                    if(comp(c[escolha1].velocidade, c[escolha2].velocidade).equals("\nJogador 1 vence")){
+                        contador1++;
+                        turno=0;
+                    }else if(comp(c[escolha1].velocidade, c[escolha2].velocidade).equals("\nJogador 2 vence")){
+                        contador2++;
+                        turno=1;
+                    }
                     break;
                     
                 case 5:
                     System.out.println("\n\nComparar pomprimento:\n Jogador 1:" + c[escolha1].comprimento + "\n Jogador 2:" + c[escolha2].comprimento + comp(c[escolha1].comprimento, c[escolha2].comprimento) + "\n");
+                    if(comp(c[escolha1].comprimento, c[escolha2].comprimento).equals("\nJogador 1 vence")){
+                        contador1++;
+                        turno=0;
+                    }else if(comp(c[escolha1].comprimento, c[escolha2].comprimento).equals("\nJogador 2 vence")){
+                        contador2++;
+                        turno=1;
+                    }
                     break;
                     
                 case 6:
                     System.out.println("\n\nComparar largura:\n Jogador 1:" + c[escolha1].largura + "\n Jogador 2:" + c[escolha2].largura + comp(c[escolha1].largura, c[escolha2].largura) + "\n");
+                    if(comp(c[escolha1].largura, c[escolha2].largura).equals("\nJogador 1 vence")){
+                        contador1++;
+                        turno=0;
+                    }else if(comp(c[escolha1].largura, c[escolha2].largura).equals("\nJogador 2 vence")){
+                        contador2++;
+                        turno=1;
+                    }
                     break;
             }
-            
             carac = 0;
-            System.out.println("Aperte qualquer tecla para ir para a próxima rodada...");
-            int quack = sc.nextInt();
-             
+            }else if(turno==1){
+            
             escolha1 = gerador.nextInt(31);
             escolha2 = gerador.nextInt(31);
             
@@ -383,42 +423,78 @@ public class SuperTrunfo {
                     System.out.println("\n\nComparar canhao:\n Jogador 1:" + c[escolha1].canhao + "\n Jogador 2:" + c[escolha2].canhao + comp(c[escolha1].canhao, c[escolha2].canhao) + "\n");
                     if(comp(c[escolha1].canhao, c[escolha2].canhao).equals("\nJogador 1 vence")){
                         contador1++;
+                        turno=0;
                     }else if(comp(c[escolha1].canhao, c[escolha2].canhao).equals("\nJogador 2 vence")){
                         contador2++;
+                        turno=1;
                     }
                     break;
                     
                 case 2:
                     System.out.println("\n\nComparar potencia:\n Jogador 1:" + c[escolha1].potencia + "\n Jogador 2:" + c[escolha2].potencia + comp(c[escolha1].potencia, c[escolha2].potencia) + "\n");
+                    if(comp(c[escolha1].potencia, c[escolha2].potencia).equals("\nJogador 1 vence")){
+                        contador1++;
+                        turno=0;
+                    }else if(comp(c[escolha1].potencia, c[escolha2].potencia).equals("\nJogador 2 vence")){
+                        contador2++;
+                        turno=1;
+                    }
                     break;
                     
                 case 3:
                     System.out.println("\n\nComparar peso:\n Jogador 1:" + c[escolha1].peso + "\n Jogador 2:" + c[escolha2].peso + comp(c[escolha1].peso, c[escolha2].peso) + "\n");
+                    if(comp(c[escolha1].peso, c[escolha2].peso).equals("\nJogador 1 vence")){
+                        contador1++;
+                        turno=0;
+                    }else if(comp(c[escolha1].peso, c[escolha2].peso).equals("\nJogador 2 vence")){
+                        contador2++;
+                        turno=1;
+                    }
                     break;
                     
                 case 4:
                     System.out.println("\n\nComparar velocidade:\n Jogador 1:" + c[escolha1].velocidade + "\n Jogador 2:" + c[escolha2].velocidade + comp(c[escolha1].velocidade, c[escolha2].velocidade) + "\n");
+                    if(comp(c[escolha1].velocidade, c[escolha2].velocidade).equals("\nJogador 1 vence")){
+                        contador1++;
+                        turno=0;
+                    }else if(comp(c[escolha1].velocidade, c[escolha2].velocidade).equals("\nJogador 2 vence")){
+                        contador2++;
+                        turno=1;
+                    }
                     break;
                     
                 case 5:
                     System.out.println("\n\nComparar pomprimento:\n Jogador 1:" + c[escolha1].comprimento + "\n Jogador 2:" + c[escolha2].comprimento + comp(c[escolha1].comprimento, c[escolha2].comprimento) + "\n");
+                    if(comp(c[escolha1].comprimento, c[escolha2].comprimento).equals("\nJogador 1 vence")){
+                        contador1++;
+                        turno=0;
+                    }else if(comp(c[escolha1].comprimento, c[escolha2].comprimento).equals("\nJogador 2 vence")){
+                        contador2++;
+                        turno=1;
+                    }
                     break;
                     
                 case 6:
                     System.out.println("\n\nComparar largura:\n Jogador 1:" + c[escolha1].largura + "\n Jogador 2:" + c[escolha2].largura + comp(c[escolha1].largura, c[escolha2].largura) + "\n");
+                    if(comp(c[escolha1].largura, c[escolha2].largura).equals("\n Jogador 1 vence")){
+                        contador1++;
+                        turno=0;
+                    }else if(comp(c[escolha1].largura, c[escolha2].largura).equals("\n Jogador 2 vence")){
+                        contador2++;
+                        turno=1;
+                    }
                     break;
             }
             
             carac = 0;
-            System.out.println("Aperte qualquer tecla para ir para a próxima rodada...");
-            quack = sc.nextInt();
-            
+
+            }
         }
 
         if(contador1>contador2){
-            System.out.println(" Vitoria do jogador 1\n Placar: Jogador 1:" + contador1 + "\nJogador 2:" + contador2);
+            System.out.println(" Vitoria do jogador 1\n Placar:\nJogador 1:" + contador1 + "\nJogador 2:" + contador2);
         }else if(contador1<contador2){
-            System.out.println(" Vitoria do jogador 2\n Placar: Jogador 1:" + contador1 + "\nJogador 2:" + contador2);
+            System.out.println(" Vitoria do jogador 2\n Placar:\nJogador 1:" + contador1 + "\nJogador 2:" + contador2);
         }
     }
 
@@ -428,7 +504,7 @@ public class SuperTrunfo {
         }else if(a<b){
             return "\nJogador 2 vence";
         }else{
-            return "Empate";
+            return "\nEmpate";
         }
     }
 }
