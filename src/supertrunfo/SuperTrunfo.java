@@ -349,7 +349,7 @@ public class SuperTrunfo {
         c[29].potencia = 195;
         c[29].velocidade = 80;
         c[29].indalfa = "B";
-        c[29].indnum = 1
+        c[29].indnum = 1;
 
         c[30].canhao = 40;
         c[30].comprimento = 6.20;
