@@ -58,6 +58,8 @@ public class SuperTrunfo {
         c[0].peso = 25.0;
         c[0].potencia = 420.0;
         c[0].velocidade = 50.0;
+        c[0].indalfa = "e";
+        c[0].indnum = 2;
         
         c[1].canhao = 100.0;
         c[1].comprimento = 6.45;
@@ -66,6 +68,8 @@ public class SuperTrunfo {
         c[1].peso = 36.0;
         c[1].potencia = 580.0;
         c[1].velocidade = 50.0;
+        c[1].indalfa = "A";
+        c[1].indnum = 3;
     
         c[2].canhao = 90;
         c[2].comprimento = 6.23;
@@ -74,6 +78,8 @@ public class SuperTrunfo {
         c[2].peso = 25.7;
         c[2].potencia = 500;
         c[2].velocidade = 70;
+        c[2].indalfa = "D";
+        c[2].indnum = 1;
     
         c[3].canhao = 20;
         c[3].comprimento = 7.34;
@@ -82,6 +88,8 @@ public class SuperTrunfo {
         c[3].peso = 19;
         c[3].potencia = 400;
         c[3].velocidade = 100;
+        c[3].indalfa = "F";
+        c[3].indnum = 1;
 
         c[4].canhao = 120;
         c[4].comprimento = 7.51;
@@ -90,6 +98,8 @@ public class SuperTrunfo {
         c[4].peso = 54.8;
         c[4].potencia = 720;
         c[4].velocidade = 43;
+        c[4].indalfa = "A";
+        c[4].indnum = 2;
        
         c[5].canhao = 20;
         c[5].comprimento = 6.79;
@@ -98,6 +108,8 @@ public class SuperTrunfo {
         c[5].peso = 25.5;
         c[5].potencia = 600;
         c[5].velocidade = 78;
+        c[5].indalfa = "C";
+        c[5].indnum = 1;
 
         c[6].canhao = 12.7;
         c[6].comprimento = 4.86;
@@ -106,6 +118,8 @@ public class SuperTrunfo {
         c[6].peso = 10.9;
         c[6].potencia = 215;
         c[6].velocidade = 68.5;
+        c[6].indalfa = "C";
+        c[6].indnum = 4;
 
         c[7].canhao = 7.62;
         c[7].comprimento = 4.71;
@@ -114,6 +128,8 @@ public class SuperTrunfo {
         c[7].peso = 8.2;
         c[7].potencia = 164;
         c[7].velocidade = 60;
+        c[7].indalfa = "G";
+        c[7].indnum = 3;
 
         c[8].canhao = 105;
         c[8].comprimento = 4.88;
@@ -122,6 +138,8 @@ public class SuperTrunfo {
         c[8].peso = 14.8;
         c[8].potencia = 250;
         c[8].velocidade = 69;
+        c[8].indalfa = "D";
+        c[8].indnum = 3;
 
         c[9].canhao = 7.5;
         c[9].comprimento = 5.70;
@@ -130,6 +148,8 @@ public class SuperTrunfo {
         c[9].peso = 14;
         c[9].potencia = 250;
         c[9].velocidade = 60;
+        c[9].indalfa = "C";
+        c[9].indnum = 3;
 
         c[10].canhao = 7.62;
         c[10].comprimento = 3.84;
@@ -138,6 +158,8 @@ public class SuperTrunfo {
         c[10].peso = 4.5;
         c[10].potencia = 129;
         c[10].velocidade = 72;
+        c[10].indalfa = "F";
+        c[10].indnum = 2;
 
         c[11].canhao = 105;
         c[11].comprimento = 6.94;
@@ -146,6 +168,8 @@ public class SuperTrunfo {
         c[11].peso = 42.4;
         c[11].potencia = 830;
         c[11].velocidade = 65;
+        c[11].indalfa = "A";
+        c[11].indnum = 1;
 
         c[12].canhao = 152;
         c[12].comprimento = 6.20;
@@ -154,6 +178,8 @@ public class SuperTrunfo {
         c[12].peso = 16.5;
         c[12].potencia = 300;
         c[12].velocidade = 65;
+        c[12].indalfa = "B";
+        c[12].indnum = 2;
 
         c[13].canhao = 20;
         c[13].comprimento = 4.43;
@@ -162,6 +188,8 @@ public class SuperTrunfo {
         c[13].peso = 8.4;
         c[13].potencia = 164;
         c[13].velocidade = 58;
+        c[13].indalfa = "B";
+        c[13].indnum = 4;
        
         c[14].canhao = 76;
         c[14].comprimento = 5.60;
@@ -170,6 +198,8 @@ public class SuperTrunfo {
         c[14].peso = 25.4;
         c[14].potencia = 500;
         c[14].velocidade = 65;
+        c[14].indalfa = "D";
+        c[14].indnum = 4;
 
         c[15].canhao = 12.7;
         c[15].comprimento = 4.59;
@@ -178,6 +208,8 @@ public class SuperTrunfo {
         c[15].peso = 9;
         c[15].potencia = 215;
         c[15].velocidade = 71;
+        c[15].indalfa = "B";
+        c[15].indnum = 3;
 
         c[16].canhao = 90;
         c[16].comprimento = 6.87;
@@ -186,6 +218,8 @@ public class SuperTrunfo {
         c[16].peso = 47.6;
         c[16].potencia = 810;
         c[16].velocidade = 51;
+        c[16].indalfa = "A";
+        c[16].indnum = 4;
 
         c[17].canhao = 35;
         c[17].comprimento = 8.17;
@@ -194,6 +228,8 @@ public class SuperTrunfo {
         c[17].peso = 45.6;
         c[17].potencia = 830;
         c[17].velocidade = 62;
+        c[17].indalfa = "E";
+        c[17].indnum = 4;
 
         c[18].canhao = 7.62;
         c[18].comprimento = 7.98;
@@ -202,6 +238,8 @@ public class SuperTrunfo {
         c[18].peso = 40.8;
         c[18].potencia = 830;
         c[18].velocidade = 62;
+        c[18].indalfa = "G";
+        c[18].indnum = 1;
 
         c[19].canhao = 500;
         c[19].comprimento = 6.24;
@@ -210,6 +248,8 @@ public class SuperTrunfo {
         c[19].peso = 23;
         c[19].potencia = 500;
         c[19].velocidade = 70;
+        c[19].indalfa = "D";
+        c[19].indnum = 2;
 
         c[20].canhao = 7.62;
         c[20].comprimento = 5.11;
@@ -218,6 +258,8 @@ public class SuperTrunfo {
         c[20].peso = 15.3;
         c[20].potencia = 240;
         c[20].velocidade = 52;
+        c[20].indalfa = "C";
+        c[20].indnum = 2;
 
         c[21].canhao = 0;
         c[21].comprimento = 11;
@@ -226,6 +268,8 @@ public class SuperTrunfo {
         c[21].peso = 54;
         c[21].potencia = 865;
         c[21].velocidade = 45;
+        c[21].indalfa = "H";
+        c[21].indnum = 4;
 
         c[22].canhao = 155;
         c[22].comprimento = 6.61;
@@ -234,6 +278,8 @@ public class SuperTrunfo {
         c[22].peso = 24.5;
         c[22].potencia = 312;
         c[22].velocidade = 56;
+        c[23].indalfa = "E";
+        c[23].indnum = 1;
 
         c[23].canhao = 75;
         c[23].comprimento = 5.56;
@@ -242,6 +288,8 @@ public class SuperTrunfo {
         c[23].peso = 13.5;
         c[23].potencia = 200;
         c[23].velocidade = 100;
+        c[23].indalfa = "F";
+        c[23].indnum = 3;
 
         c[24].canhao = 7.62;
         c[24].comprimento = 8.40;
@@ -250,6 +298,8 @@ public class SuperTrunfo {
         c[24].peso = 52;
         c[24].potencia = 826;
         c[24].velocidade = 50;
+        c[24].indalfa = "H";
+        c[24].indnum = 2;
 
         c[25].canhao = 7.62;
         c[25].comprimento = 7.57;
@@ -258,6 +308,8 @@ public class SuperTrunfo {
         c[25].peso = 40;
         c[25].potencia = 830;
         c[25].velocidade = 62;
+        c[25].indalfa = "H";
+        c[25].indnum = 1;
 
         c[26].canhao = 0;
         c[26].comprimento = 5.11;
@@ -266,6 +318,8 @@ public class SuperTrunfo {
         c[26].peso = 15.2;
         c[26].potencia = 420;
         c[26].velocidade = 52;
+        c[26].indalfa = "G";
+        c[26].indnum = 2;
 
         c[27].canhao = 7.62;
         c[27].comprimento = 6.74;
@@ -274,6 +328,8 @@ public class SuperTrunfo {
         c[27].peso = 14.5;
         c[27].potencia = 360;
         c[27].velocidade = 100;
+        c[27].indalfa = "F";
+        c[27].indnum = 4;
 
         c[28].canhao = 7.62;
         c[28].comprimento = 4.86;
@@ -282,6 +338,8 @@ public class SuperTrunfo {
         c[28].peso = 11;
         c[28].potencia = 215;
         c[28].velocidade = 68;
+        c[28].indalfa = "G";
+        c[28].indnum = 4;
 
         c[29].canhao = 30;
         c[29].comprimento = 4.39;
@@ -290,6 +348,8 @@ public class SuperTrunfo {
         c[29].peso = 7.94;
         c[29].potencia = 195;
         c[29].velocidade = 80;
+        c[29].indalfa = "B";
+        c[29].indnum = 1
 
         c[30].canhao = 40;
         c[30].comprimento = 6.20;
@@ -298,6 +358,8 @@ public class SuperTrunfo {
         c[30].peso = 22;
         c[30].potencia = 480;
         c[30].velocidade = 72;
+        c[30].indalfa = "E";
+        c[30].indnum = 3;
 
         c[31].canhao = 0;
         c[31].comprimento = 11.40;
@@ -306,6 +368,8 @@ public class SuperTrunfo {
         c[31].peso = 41;
         c[31].potencia = 830;
         c[31].velocidade = 60;
+        c[31].indalfa = "H";
+        c[31].indnum = 3;        
 
         int turno=0;
         int carac=0;

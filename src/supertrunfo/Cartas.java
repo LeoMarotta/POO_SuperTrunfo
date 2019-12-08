@@ -11,6 +11,8 @@ public class Cartas {
     double velocidade;
     double comprimento;
     double largura;
+    String indalfa;
+    int indnum;
 
     public Cartas() {
         String getnome = null;
@@ -44,6 +46,15 @@ public class Cartas {
     public double getLargura() {
         return largura;
     }
+    
+    public String getIndalfa() {
+        return indalfa;
+    }
+
+    public int getIndnum() {
+        return indnum;
+    }
+
       
     public void status (){
         System.out.println("\n"+"O Nome desse Tanque eh "+ this.nome);
@@ -53,6 +64,8 @@ public class Cartas {
         System.out.println("este tanque pesa "+ this.peso);
         System.out.println("ele possui uma potencia de "+ this.potencia);
         System.out.println("A velocidade dele eh de "+this.velocidade+"\n");
+        System.out.println("O indice alfabetico dele eh "+this.indalfa);
+        System.out.println("O indice numerico dele eh "+ this.indnum);
         }
 }
     
