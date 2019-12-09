@@ -397,127 +397,163 @@ public class SuperTrunfo {
             
             switch(carac){                
                 case 1:
-                    System.out.println("\n\nComparar canhao:\n Jogador 1:" + c[escolha1].canhao + "\n Jogador 2:" + c[escolha2].canhao + comp(c[escolha1].canhao, c[escolha2].canhao) + "\n");
-                    if((c[escolha1].indalfa!="E" && c[escolha1].indnum!=3) && (c[escolha2].indnum!=1)){
+                    System.out.println("\n\nComparar canhao:\n Jogador 1:" + c[escolha1].canhao + "\n Jogador 2:" + c[escolha2].canhao +"\n");
+                    if((c[escolha1].indalfa=="E" && c[escolha1].indnum==3) && (c[escolha2].indnum!=1)){
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                            break;
+                    }else if((c[escolha2].indalfa=="E" && c[escolha2].indnum==3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
+                            break;
                     }else {
                         if(comp(c[escolha1].canhao, c[escolha2].canhao).equals("\nJogador 1 vence")){
+                            System.out.println("\n" + comp(c[escolha1].canhao, c[escolha2].canhao) + "\n");
                             contador1++;
                             turno=0;
+                            break;
                         }else if(comp(c[escolha1].canhao, c[escolha2].canhao).equals("\nJogador 2 vence")){
+                            System.out.println("\n" + comp(c[escolha1].canhao, c[escolha2].canhao) + "\n");
                             contador2++;
                             turno=1;
+                            break;
                         }
                     } 
                     break;
                     
                 case 2:
-                    System.out.println("\n\nComparar potencia:\n Jogador 1:" + c[escolha1].potencia + "\n Jogador 2:" + c[escolha2].potencia + comp(c[escolha1].potencia, c[escolha2].potencia) + "\n");
-                    if((c[escolha1].indalfa!="E" && c[escolha1].indnum!=3) && (c[escolha2].indnum!=1)){
+                    System.out.println("\n\nComparar potencia:\n Jogador 1:" + c[escolha1].potencia + "\n Jogador 2:" + c[escolha2].potencia +"\n");
+                    if((c[escolha1].indalfa=="E" && c[escolha1].indnum==3) && (c[escolha2].indnum!=1)){
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                            break;
+                    }else if((c[escolha2].indalfa=="E" && c[escolha2].indnum==3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
+                            break;
                     }else {
                         if(comp(c[escolha1].potencia, c[escolha2].potencia).equals("\nJogador 1 vence")){
+                            System.out.println("\n" + comp(c[escolha1].potencia, c[escolha2].potencia) + "\n");
                             contador1++;
                             turno=0;
+                            break;
                         }else if(comp(c[escolha1].potencia, c[escolha2].potencia).equals("\nJogador 2 vence")){
+                            System.out.println("\n" + comp(c[escolha1].potencia, c[escolha2].potencia) + "\n");
                             contador2++;
                             turno=1;
+                            break;
                         }
                     } 
                     break;
                     
                 case 3:
-                    System.out.println("\n\nComparar peso:\n Jogador 1:" + c[escolha1].peso + "\n Jogador 2:" + c[escolha2].peso + comp(c[escolha1].peso, c[escolha2].peso) + "\n");
-                    if((c[escolha1].indalfa!="E" && c[escolha1].indnum!=3) && (c[escolha2].indnum!=1)){
+                    System.out.println("\n\nComparar peso:\n Jogador 1:" + c[escolha1].peso + "\n Jogador 2:" + c[escolha2].peso +"\n");
+                    if((c[escolha1].indalfa=="E" && c[escolha1].indnum==3) && (c[escolha2].indnum!=1)){
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                            break;
+                    }else if((c[escolha2].indalfa=="E" && c[escolha2].indnum==3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
+                            break;
                     }else {
                         if(comp(c[escolha1].peso, c[escolha2].peso).equals("\nJogador 1 vence")){
+                            System.out.println("\n" + comp(c[escolha1].peso, c[escolha2].peso) + "\n");
                             contador1++;
                             turno=0;
+                            break;
                         }else if(comp(c[escolha1].peso, c[escolha2].peso).equals("\nJogador 2 vence")){
+                            System.out.println("\n" + comp(c[escolha1].peso, c[escolha2].peso) + "\n");
                             contador2++;
                             turno=1;
+                            break;
                         }
                     } 
                     break;
                     
                 case 4:
-                    System.out.println("\n\nComparar velocidade:\n Jogador 1:" + c[escolha1].velocidade + "\n Jogador 2:" + c[escolha2].velocidade + comp(c[escolha1].velocidade, c[escolha2].velocidade) + "\n");
-                    if((c[escolha1].indalfa!="E" && c[escolha1].indnum!=3) && (c[escolha2].indnum!=1)){
+                    System.out.println("\n\nComparar velocidade:\n Jogador 1:" + c[escolha1].velocidade + "\n Jogador 2:" + c[escolha2].velocidade +"\n");
+                    if((c[escolha1].indalfa=="E" && c[escolha1].indnum==3) && (c[escolha2].indnum!=1)){
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                            break;
+                    }else if((c[escolha2].indalfa=="E" && c[escolha2].indnum==3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
+                            break;
                     }else {
                         if(comp(c[escolha1].velocidade, c[escolha2].velocidade).equals("\nJogador 1 vence")){
+                            System.out.println("\n" + comp(c[escolha1].velocidade, c[escolha2].velocidade) + "\n");
                             contador1++;
                             turno=0;
+                            break;
                         }else if(comp(c[escolha1].velocidade, c[escolha2].velocidade).equals("\nJogador 2 vence")){
+                            System.out.println("\n" + comp(c[escolha1].velocidade, c[escolha2].velocidade) + "\n");
                             contador2++;
                             turno=1;
+                            break;
                         }
                     } 
                     break;
                     
                 case 5:
-                    System.out.println("\n\nComparar pomprimento:\n Jogador 1:" + c[escolha1].comprimento + "\n Jogador 2:" + c[escolha2].comprimento + comp(c[escolha1].comprimento, c[escolha2].comprimento) + "\n");
-                    if((c[escolha1].indalfa!="E" && c[escolha1].indnum!=3) && (c[escolha2].indnum!=1)){
+                    System.out.println("\n\nComparar pomprimento:\n Jogador 1:" + c[escolha1].comprimento + "\n Jogador 2:" + c[escolha2].comprimento +"\n");
+                    if((c[escolha1].indalfa=="E" && c[escolha1].indnum==3) && (c[escolha2].indnum!=1)){
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                            break;
+                    }else if((c[escolha2].indalfa=="E" && c[escolha2].indnum==3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
+                            break;
                     }else {
                         if(comp(c[escolha1].comprimento, c[escolha2].comprimento).equals("\nJogador 1 vence")){
+                            System.out.println("\n" + comp(c[escolha1].comprimento, c[escolha2].comprimento) + "\n");
                             contador1++;
                             turno=0;
+                            break;
                         }else if(comp(c[escolha1].comprimento, c[escolha2].comprimento).equals("\nJogador 2 vence")){
+                            System.out.println("\n" + comp(c[escolha1].comprimento, c[escolha2].comprimento) + "\n");
                             contador2++;
                             turno=1;
+                            break;
                         }
                     } 
                     break;
                     
                 case 6:
-                    System.out.println("\n\nComparar largura:\n Jogador 1:" + c[escolha1].largura + "\n Jogador 2:" + c[escolha2].largura + comp(c[escolha1].largura, c[escolha2].largura) + "\n");
-                    if((c[escolha1].indalfa!="E" && c[escolha1].indnum!=3) && (c[escolha2].indnum!=1)){
+                    System.out.println("\n\nComparar largura:\n Jogador 1:" + c[escolha1].largura + "\n Jogador 2:" + c[escolha2].largura +"\n");
+                    if((c[escolha1].indalfa=="E" && c[escolha1].indnum==3) && (c[escolha2].indnum!=1)){
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                            break;
+                    }else if((c[escolha2].indalfa=="E" && c[escolha2].indnum==3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
+                            break;
                     }else {
                         if(comp(c[escolha1].largura, c[escolha2].largura).equals("\nJogador 1 vence")){
+                            System.out.println("\n" + comp(c[escolha1].largura, c[escolha2].largura) + "\n");
                             contador1++;
                             turno=0;
+                            break;
                         }else if(comp(c[escolha1].largura, c[escolha2].largura).equals("\nJogador 2 vence")){
+                            System.out.println("\n" + comp(c[escolha1].largura, c[escolha2].largura) + "\n");
                             contador2++;
                             turno=1;
+                            break;
                         }
                     } 
                     break;
@@ -544,127 +580,163 @@ public class SuperTrunfo {
             
             switch(carac){                
                 case 1:
-                    System.out.println("\n\nComparar canhao:\n Jogador 1:" + c[escolha1].canhao + "\n Jogador 2:" + c[escolha2].canhao + comp(c[escolha1].canhao, c[escolha2].canhao) + "\n");
-                    if((c[escolha1].indalfa!="E" && c[escolha1].indnum!=3) && (c[escolha2].indnum!=1)){
+                    System.out.println("\n\nComparar canhao:\n Jogador 1:" + c[escolha1].canhao + "\n Jogador 2:" + c[escolha2].canhao +"\n");
+                    if((c[escolha1].indalfa=="E" && c[escolha1].indnum==3) && (c[escolha2].indnum!=1)){
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                            break;
+                    }else if((c[escolha2].indalfa=="E" && c[escolha2].indnum==3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
+                            break;
                     }else {
                         if(comp(c[escolha1].canhao, c[escolha2].canhao).equals("\nJogador 1 vence")){
+                            System.out.println("\n" + comp(c[escolha1].canhao, c[escolha2].canhao) + "\n");
                             contador1++;
                             turno=0;
+                            break;
                         }else if(comp(c[escolha1].canhao, c[escolha2].canhao).equals("\nJogador 2 vence")){
+                            System.out.println("\n" + comp(c[escolha1].canhao, c[escolha2].canhao) + "\n");
                             contador2++;
                             turno=1;
+                            break;
                         }
                     } 
                     break;
                     
                 case 2:
-                    System.out.println("\n\nComparar potencia:\n Jogador 1:" + c[escolha1].potencia + "\n Jogador 2:" + c[escolha2].potencia + comp(c[escolha1].potencia, c[escolha2].potencia) + "\n");
-                    if((c[escolha1].indalfa!="E" && c[escolha1].indnum!=3) && (c[escolha2].indnum!=1)){
+                    System.out.println("\n\nComparar potencia:\n Jogador 1:" + c[escolha1].potencia + "\n Jogador 2:" + c[escolha2].potencia +"\n");
+                    if((c[escolha1].indalfa=="E" && c[escolha1].indnum==3) && (c[escolha2].indnum!=1)){
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                            break;
+                    }else if((c[escolha2].indalfa=="E" && c[escolha2].indnum==3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
+                            break;
                     }else {
                         if(comp(c[escolha1].potencia, c[escolha2].potencia).equals("\nJogador 1 vence")){
+                            System.out.println("\n" + comp(c[escolha1].potencia, c[escolha2].potencia) + "\n");
                             contador1++;
                             turno=0;
+                            break;
                         }else if(comp(c[escolha1].potencia, c[escolha2].potencia).equals("\nJogador 2 vence")){
+                            System.out.println("\n" + comp(c[escolha1].potencia, c[escolha2].potencia) + "\n");
                             contador2++;
                             turno=1;
+                            break;
                         }
                     } 
                     break;
                     
                 case 3:
-                    System.out.println("\n\nComparar peso:\n Jogador 1:" + c[escolha1].peso + "\n Jogador 2:" + c[escolha2].peso + comp(c[escolha1].peso, c[escolha2].peso) + "\n");
-                    if((c[escolha1].indalfa!="E" && c[escolha1].indnum!=3) && (c[escolha2].indnum!=1)){
+                    System.out.println("\n\nComparar peso:\n Jogador 1:" + c[escolha1].peso + "\n Jogador 2:" + c[escolha2].peso +"\n");
+                    if((c[escolha1].indalfa=="E" && c[escolha1].indnum==3) && (c[escolha2].indnum!=1)){
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                            break;
+                    }else if((c[escolha2].indalfa=="E" && c[escolha2].indnum==3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
+                            break;
                     }else {
                         if(comp(c[escolha1].peso, c[escolha2].peso).equals("\nJogador 1 vence")){
+                            System.out.println("\n" + comp(c[escolha1].peso, c[escolha2].peso) + "\n");
                             contador1++;
                             turno=0;
+                            break;
                         }else if(comp(c[escolha1].peso, c[escolha2].peso).equals("\nJogador 2 vence")){
+                            System.out.println("\n" + comp(c[escolha1].peso, c[escolha2].peso) + "\n");
                             contador2++;
                             turno=1;
+                            break;
                         }
                     } 
                     break;
                     
                 case 4:
-                    System.out.println("\n\nComparar velocidade:\n Jogador 1:" + c[escolha1].velocidade + "\n Jogador 2:" + c[escolha2].velocidade + comp(c[escolha1].velocidade, c[escolha2].velocidade) + "\n");
-                    if((c[escolha1].indalfa!="E" && c[escolha1].indnum!=3) && (c[escolha2].indnum!=1)){
+                    System.out.println("\n\nComparar velocidade:\n Jogador 1:" + c[escolha1].velocidade + "\n Jogador 2:" + c[escolha2].velocidade +"\n");
+                    if((c[escolha1].indalfa=="E" && c[escolha1].indnum==3) && (c[escolha2].indnum!=1)){
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                            break;
+                    }else if((c[escolha2].indalfa=="E" && c[escolha2].indnum==3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
+                            break;
                     }else {
                         if(comp(c[escolha1].velocidade, c[escolha2].velocidade).equals("\nJogador 1 vence")){
+                            System.out.println("\n" + comp(c[escolha1].velocidade, c[escolha2].velocidade) + "\n");
                             contador1++;
                             turno=0;
+                            break;
                         }else if(comp(c[escolha1].velocidade, c[escolha2].velocidade).equals("\nJogador 2 vence")){
+                            System.out.println("\n" + comp(c[escolha1].velocidade, c[escolha2].velocidade) + "\n");
                             contador2++;
                             turno=1;
+                            break;
                         }
                     } 
                     break;
                     
                 case 5:
-                    System.out.println("\n\nComparar pomprimento:\n Jogador 1:" + c[escolha1].comprimento + "\n Jogador 2:" + c[escolha2].comprimento + comp(c[escolha1].comprimento, c[escolha2].comprimento) + "\n");
-                    if((c[escolha1].indalfa!="E" && c[escolha1].indnum!=3) && (c[escolha2].indnum!=1)){
+                    System.out.println("\n\nComparar pomprimento:\n Jogador 1:" + c[escolha1].comprimento + "\n Jogador 2:" + c[escolha2].comprimento +"\n");
+                    if((c[escolha1].indalfa=="E" && c[escolha1].indnum==3) && (c[escolha2].indnum!=1)){
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                            break;
+                    }else if((c[escolha2].indalfa=="E" && c[escolha2].indnum==3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
+                            break;
                     }else {
                         if(comp(c[escolha1].comprimento, c[escolha2].comprimento).equals("\nJogador 1 vence")){
+                            System.out.println("\n" + comp(c[escolha1].comprimento, c[escolha2].comprimento) + "\n");
                             contador1++;
                             turno=0;
+                            break;
                         }else if(comp(c[escolha1].comprimento, c[escolha2].comprimento).equals("\nJogador 2 vence")){
+                            System.out.println("\n" + comp(c[escolha1].comprimento, c[escolha2].comprimento) + "\n");
                             contador2++;
                             turno=1;
+                            break;
                         }
                     } 
                     break;
                     
                 case 6:
-                    System.out.println("\n\nComparar largura:\n Jogador 1:" + c[escolha1].largura + "\n Jogador 2:" + c[escolha2].largura + comp(c[escolha1].largura, c[escolha2].largura) + "\n");
-                    if((c[escolha1].indalfa!="E" && c[escolha1].indnum!=3) && (c[escolha2].indnum!=1)){
+                    System.out.println("\n\nComparar largura:\n Jogador 1:" + c[escolha1].largura + "\n Jogador 2:" + c[escolha2].largura +"\n");
+                    if((c[escolha1].indalfa=="E" && c[escolha1].indnum==3) && (c[escolha2].indnum!=1)){
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                            break;
+                    }else if((c[escolha2].indalfa=="E" && c[escolha2].indnum==3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
+                            break;
                     }else {
                         if(comp(c[escolha1].largura, c[escolha2].largura).equals("\nJogador 1 vence")){
+                            System.out.println("\n" + comp(c[escolha1].largura, c[escolha2].largura) + "\n");
                             contador1++;
                             turno=0;
+                            break;
                         }else if(comp(c[escolha1].largura, c[escolha2].largura).equals("\nJogador 2 vence")){
+                            System.out.println("\n" + comp(c[escolha1].largura, c[escolha2].largura) + "\n");
                             contador2++;
                             turno=1;
+                            break;
                         }
                     } 
                     break;
