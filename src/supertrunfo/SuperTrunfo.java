@@ -402,7 +402,7 @@ public class SuperTrunfo {
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="H" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
@@ -423,7 +423,7 @@ public class SuperTrunfo {
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="H" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
@@ -444,7 +444,7 @@ public class SuperTrunfo {
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="H" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
@@ -465,7 +465,7 @@ public class SuperTrunfo {
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="H" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
@@ -486,7 +486,7 @@ public class SuperTrunfo {
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="H" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
@@ -507,7 +507,7 @@ public class SuperTrunfo {
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="H" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
@@ -549,7 +549,7 @@ public class SuperTrunfo {
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="H" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
@@ -570,7 +570,7 @@ public class SuperTrunfo {
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="H" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
@@ -591,7 +591,7 @@ public class SuperTrunfo {
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="H" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
@@ -612,7 +612,7 @@ public class SuperTrunfo {
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="H" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
@@ -633,7 +633,7 @@ public class SuperTrunfo {
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="H" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
@@ -654,7 +654,7 @@ public class SuperTrunfo {
                             contador1++;
                             turno=0;
                             System.out.println("SUPER TRUNFO JOGADOR 1");
-                    }else if((c[escolha2].indalfa!="H" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
+                    }else if((c[escolha2].indalfa!="E" && c[escolha2].indnum!=3) && (c[escolha1].indnum!=1)){
                             contador2++;
                             turno=1;
                             System.out.println("SUPER TRUNFO JOGADOR 2");
